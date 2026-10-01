@@ -14,7 +14,10 @@
         "name": "Tomáš Malínský"
       },
       {
-        "name": "Viktor Puplán"
+        "name": "Viktor Půlpán"
+      },
+      {
+        "name": "PalmBeach Pete"
       }
     ],
     "diagrams": [
@@ -2019,7 +2022,7 @@
             }
           }
         ],
-        "version": "2.3.0",
+        "version": "2.6.2",
         "title": "Main Request Data Flow",
         "description": "",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
