@@ -2,7 +2,7 @@
   "summary": {
     "title": "Demo Threat Model",
     "owner": "Mike Goodwin",
-    "description": "A sample model of a web application, with a queue-decoupled background process.",
+    "description": "A banking system for minors with pdfs functions",
     "id": 0
   },
   "detail": {
