@@ -536,11 +536,7 @@
             },
             "vertices": [
               {
-                "x": 790,
-                "y": -300
-              },
-              {
-                "x": 940,
+                "x": 870,
                 "y": -300
               }
             ]
@@ -583,21 +579,121 @@
             ],
             "id": "2c82776a-339a-4b78-9df5-10a705475dc5",
             "source": {
+              "cell": "21084e7e-8df4-4531-ab26-298d97bb818d",
+              "port": "04ff4546-eab3-4795-9427-e3807ed9577b"
+            },
+            "target": {
               "cell": "a11ff88c-bf1f-4d29-aa24-ef74ef2a4351",
               "port": "5b61e862-d27e-4362-9a40-ae36a74f1d69"
             },
+            "vertices": [
+              {
+                "x": 870,
+                "y": -240
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "platební příkaz (účet příjemce, částka) + token",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "platební příkaz (účet příjemce, částka) + token"
+            ],
+            "id": "21cf066c-590d-4fe7-99da-708f2569325a",
+            "source": {
+              "x": 639,
+              "y": -200
+            },
             "target": {
-              "cell": "21084e7e-8df4-4531-ab26-298d97bb818d",
+              "cell": "0661e93c-edcf-46b5-81ac-72e97dfa2212",
               "port": "04ff4546-eab3-4795-9427-e3807ed9577b"
             },
             "vertices": [
               {
-                "x": 800,
-                "y": -240
-              },
+                "x": 660,
+                "y": -80
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "žádost o potvrzení platby (zobrazí příjemce a částku)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "žádost o potvrzení platby (zobrazí příjemce a částku)"
+            ],
+            "id": "217e1fdc-8457-48f3-b862-654b6549bf57",
+            "source": {
+              "x": 811,
+              "y": -20
+            },
+            "target": {
+              "cell": "a11ff88c-bf1f-4d29-aa24-ef74ef2a4351",
+              "port": "e794aa08-cf81-4028-bc74-a05623b55172"
+            },
+            "vertices": [
               {
-                "x": 930,
-                "y": -240
+                "x": 760,
+                "y": -140
               }
             ]
           },
@@ -957,8 +1053,8 @@
           },
           {
             "position": {
-              "x": 568.25,
-              "y": -180
+              "x": 820,
+              "y": -80
             },
             "size": {
               "width": 140,
