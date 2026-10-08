@@ -45,28 +45,44 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
-              "containedElements": []
+              "containedElements": [
+                "f15793ed-c178-4f85-a7dc-9e6ec9e9011e"
+              ]
             },
             "labels": [
               "Trust Boundary"
             ],
             "id": "6f5d28b4-4b4a-4fd8-8e7e-0ce845821d8a",
             "source": {
-              "x": 760,
-              "y": 270
+              "cell": "f15793ed-c178-4f85-a7dc-9e6ec9e9011e",
+              "port": "f7588a22-4f15-473d-b3e1-7e6a4ce50153"
             },
             "target": {
-              "x": 860,
-              "y": 370
-            }
+              "cell": "f15793ed-c178-4f85-a7dc-9e6ec9e9011e",
+              "port": "a0150bf4-8818-48fb-9691-0b38a44f48f3"
+            },
+            "vertices": [
+              {
+                "x": 130,
+                "y": 310
+              },
+              {
+                "x": 180,
+                "y": 410
+              },
+              {
+                "x": -90,
+                "y": 420
+              }
+            ]
           },
           {
             "position": {
-              "x": 358.75,
-              "y": 20
+              "x": -48.75,
+              "y": 10
             },
             "size": {
-              "width": 112.5,
+              "width": 180,
               "height": 60
             },
             "attrs": {
@@ -179,12 +195,12 @@
           },
           {
             "position": {
-              "x": 570,
-              "y": -47.999999999999574
+              "x": 568.25,
+              "y": -340
             },
             "size": {
-              "width": 250,
-              "height": 110
+              "width": 140,
+              "height": 140
             },
             "attrs": {
               "text": {
@@ -299,14 +315,17 @@
           },
           {
             "position": {
-              "x": 640,
-              "y": 140
+              "x": 110,
+              "y": 350
             },
             "size": {
               "width": 120,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Databáze účtů a transakcí"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -404,7 +423,7 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Databáze účtů a transakcí",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -454,23 +473,29 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "503a6eab-eb88-4356-b44f-e077f9341c39",
+            "id": "3f8d4fbc-d479-453e-b0cf-72ae9aeb5746",
             "source": {
-              "x": 226,
-              "y": 288
+              "x": 131,
+              "y": 35
             },
             "target": {
-              "x": 326,
-              "y": 388
-            }
+              "cell": "a11ff88c-bf1f-4d29-aa24-ef74ef2a4351",
+              "port": "04ff4546-eab3-4795-9427-e3807ed9577b"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": -20
+              }
+            ]
           },
           {
             "position": {
-              "x": 358.75,
-              "y": 102
+              "x": -48.75,
+              "y": 95
             },
             "size": {
-              "width": 112.5,
+              "width": 180,
               "height": 60
             },
             "attrs": {
@@ -583,16 +608,16 @@
           },
           {
             "position": {
-              "x": 141.25,
-              "y": 184.00000000000048
+              "x": -48.75,
+              "y": 174.00000000000048
             },
             "size": {
-              "width": 330,
+              "width": 180,
               "height": 60
             },
             "attrs": {
               "text": {
-                "text": "Mezibankovní platební systém (CERTIS / SIPS)"
+                "text": "Mezibankovní platební \nsystém (CERTIS / SIPS)"
               },
               "body": {
                 "stroke": "#333333",
@@ -687,7 +712,7 @@
             "id": "eeb9fa7a-e549-4784-9cfe-a89fcb1bad1e",
             "data": {
               "type": "tm.Actor",
-              "name": "Mezibankovní platební systém (CERTIS / SIPS)",
+              "name": "Mezibankovní platební \nsystém (CERTIS / SIPS)",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -700,12 +725,12 @@
           },
           {
             "position": {
-              "x": 832,
-              "y": -47.999999999999574
+              "x": 563.25,
+              "y": 134.0000000000004
             },
             "size": {
-              "width": 250,
-              "height": 110
+              "width": 150,
+              "height": 140
             },
             "attrs": {
               "text": {
@@ -820,12 +845,12 @@
           },
           {
             "position": {
-              "x": 714,
-              "y": 80
+              "x": 568.25,
+              "y": -180
             },
             "size": {
-              "width": 250,
-              "height": 110
+              "width": 140,
+              "height": 140
             },
             "attrs": {
               "text": {
@@ -940,12 +965,12 @@
           },
           {
             "position": {
-              "x": 431.25,
-              "y": -157.99999999999957
+              "x": 568.25,
+              "y": -20
             },
             "size": {
-              "width": 250,
-              "height": 110
+              "width": 140,
+              "height": 140
             },
             "attrs": {
               "text": {
@@ -1060,16 +1085,16 @@
           },
           {
             "position": {
-              "x": 493.25,
-              "y": 62.000000000000426
+              "x": 568.25,
+              "y": 290
             },
             "size": {
-              "width": 250,
-              "height": 110
+              "width": 140,
+              "height": 140
             },
             "attrs": {
               "text": {
-                "text": "Interní aplikace bankéře"
+                "text": "Interní \naplikace bankéře"
               },
               "body": {
                 "stroke": "#333333",
@@ -1164,7 +1189,7 @@
             "id": "b81e8e00-f121-4b57-a4fc-9be3bf14f4eb",
             "data": {
               "type": "tm.Process",
-              "name": "Interní aplikace bankéře",
+              "name": "Interní \naplikace bankéře",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1177,6 +1202,130 @@
               "threats": []
             },
             "zIndex": 16
+          },
+          {
+            "position": {
+              "x": 270,
+              "y": 410
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Auditní záznamy"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f7588a22-4f15-473d-b3e1-7e6a4ce50153"
+                },
+                {
+                  "group": "right",
+                  "id": "a0150bf4-8818-48fb-9691-0b38a44f48f3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "fc336fe8-73a2-4930-a5f9-31957a6a047d"
+                },
+                {
+                  "group": "left",
+                  "id": "447cb4da-6634-4a23-a1eb-bc720c40e9fd"
+                }
+              ]
+            },
+            "id": "50168645-6e85-4495-b8c6-29e3c6488b0f",
+            "data": {
+              "type": "tm.Store",
+              "name": "Auditní záznamy",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            },
+            "zIndex": 17
           }
         ],
         "version": "2.6.2",
