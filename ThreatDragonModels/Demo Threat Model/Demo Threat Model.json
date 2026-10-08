@@ -457,7 +457,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "přihlašovací údaje, platební příkaz",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -471,7 +471,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "přihlašovací údaje, platební příkaz"
             ],
             "id": "3f8d4fbc-d479-453e-b0cf-72ae9aeb5746",
             "source": {
@@ -486,6 +486,118 @@
               {
                 "x": 230,
                 "y": -20
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "přihlašovací údaje + ID zařízení",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "přihlašovací údaje + ID zařízení"
+            ],
+            "id": "76606bf3-6318-44aa-b4ab-33cb62226791",
+            "source": {
+              "x": 708,
+              "y": -273
+            },
+            "target": {
+              "cell": "21084e7e-8df4-4531-ab26-298d97bb818d",
+              "port": "04ff4546-eab3-4795-9427-e3807ed9577b"
+            },
+            "vertices": [
+              {
+                "x": 790,
+                "y": -300
+              },
+              {
+                "x": 940,
+                "y": -300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "token relace",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "token relace"
+            ],
+            "id": "2c82776a-339a-4b78-9df5-10a705475dc5",
+            "source": {
+              "cell": "a11ff88c-bf1f-4d29-aa24-ef74ef2a4351",
+              "port": "5b61e862-d27e-4362-9a40-ae36a74f1d69"
+            },
+            "target": {
+              "cell": "21084e7e-8df4-4531-ab26-298d97bb818d",
+              "port": "04ff4546-eab3-4795-9427-e3807ed9577b"
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": -240
+              },
+              {
+                "x": 930,
+                "y": -240
               }
             ]
           },
@@ -725,8 +837,8 @@
           },
           {
             "position": {
-              "x": 563.25,
-              "y": 134.0000000000004
+              "x": 1023.25,
+              "y": -340
             },
             "size": {
               "width": 150,
