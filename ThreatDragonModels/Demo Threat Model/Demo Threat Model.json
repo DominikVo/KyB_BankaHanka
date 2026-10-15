@@ -34,11 +34,11 @@
         "cells": [
           {
             "position": {
-              "x": 499.99999999999886,
-              "y": -399.99999999999864
+              "x": 769.9999999999987,
+              "y": -399.999999999999
             },
             "size": {
-              "width": 690,
+              "width": 420,
               "height": 490
             },
             "attrs": {
@@ -57,12 +57,13 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "3f8d4fbc-d479-453e-b0cf-72ae9aeb5746",
                 "76606bf3-6318-44aa-b4ab-33cb62226791",
-                "21cf066c-590d-4fe7-99da-708f2569325a"
+                "2c82776a-339a-4b78-9df5-10a705475dc5",
+                "21cf066c-590d-4fe7-99da-708f2569325a",
+                "217e1fdc-8457-48f3-b862-654b6549bf57",
+                "057d878a-21e1-4167-95e7-a2a70a7f0ccd"
               ],
               "containedElements": [
-                "a11ff88c-bf1f-4d29-aa24-ef74ef2a4351",
                 "21084e7e-8df4-4531-ab26-298d97bb818d",
                 "0661e93c-edcf-46b5-81ac-72e97dfa2212"
               ]
@@ -105,12 +106,12 @@
           },
           {
             "position": {
-              "x": -62.00000000000006,
-              "y": 84.99999999999471
+              "x": 338,
+              "y": 114.99999999999417
             },
             "size": {
-              "width": 900,
-              "height": 230
+              "width": 500,
+              "height": 200
             },
             "attrs": {
               "label": {
@@ -132,7 +133,6 @@
                 "b16bc26d-1e9b-42d2-8340-207b92d45675"
               ],
               "containedElements": [
-                "968a1540-8e6b-46f8-b6cd-56fc75ae9ba2",
                 "241ee0c1-3e70-4462-97de-11a644b7b1c6",
                 "b81e8e00-f121-4b57-a4fc-9be3bf14f4eb"
               ]
@@ -562,9 +562,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "0f93a380-355c-4939-af1b-a46cf2e1f469"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "přihlašovací údaje, platební příkaz"
@@ -674,7 +672,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "0f93a380-355c-4939-af1b-a46cf2e1f469"
+              ]
             },
             "labels": [
               "token relace"
@@ -780,7 +780,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "0f93a380-355c-4939-af1b-a46cf2e1f469"
+              ]
             },
             "labels": [
               "žádost o potvrzení platby (zobrazí příjemce a částku)"
@@ -832,7 +834,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "0f93a380-355c-4939-af1b-a46cf2e1f469"
+              ]
             },
             "labels": [
               "potvrzení platby (PIN / biometrie)"
