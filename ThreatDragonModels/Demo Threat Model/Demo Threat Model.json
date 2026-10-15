@@ -34,6 +34,144 @@
         "cells": [
           {
             "position": {
+              "x": 499.99999999999886,
+              "y": -399.99999999999864
+            },
+            "size": {
+              "width": 690,
+              "height": 490
+            },
+            "attrs": {
+              "label": {
+                "text": "Internet"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "zIndex": -1,
+            "id": "0f93a380-355c-4939-af1b-a46cf2e1f469",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "3f8d4fbc-d479-453e-b0cf-72ae9aeb5746",
+                "76606bf3-6318-44aa-b4ab-33cb62226791",
+                "21cf066c-590d-4fe7-99da-708f2569325a"
+              ],
+              "containedElements": [
+                "a11ff88c-bf1f-4d29-aa24-ef74ef2a4351",
+                "21084e7e-8df4-4531-ab26-298d97bb818d",
+                "0661e93c-edcf-46b5-81ac-72e97dfa2212"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 1299.9999999999995,
+              "y": -129.99999999999844
+            },
+            "size": {
+              "width": 350,
+              "height": 390
+            },
+            "attrs": {
+              "label": {
+                "text": "Interní data"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "zIndex": -1,
+            "id": "6e3b2d82-8c40-4ad9-ac93-b5cb868d81a1",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Interní data",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "ce64e896-cbf8-4e0c-9aeb-bcd95ce59e36",
+                "611b3c46-2335-4a4b-9b03-69c8fc8d2df6",
+                "a0286908-4fb9-46e6-a360-d6ff6000dcd6"
+              ],
+              "containedElements": [
+                "f15793ed-c178-4f85-a7dc-9e6ec9e9011e",
+                "50168645-6e85-4495-b8c6-29e3c6488b0f"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": -62.00000000000006,
+              "y": 84.99999999999471
+            },
+            "size": {
+              "width": 900,
+              "height": 230
+            },
+            "attrs": {
+              "label": {
+                "text": "Privilegovaný přístup"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "e990750e-6ee2-48fb-bfde-efcaaa94a849",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Privilegovaný přístup",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "8dd5fd99-deb2-4901-ae50-9e8141294cbb",
+                "b16bc26d-1e9b-42d2-8340-207b92d45675"
+              ],
+              "containedElements": [
+                "968a1540-8e6b-46f8-b6cd-56fc75ae9ba2",
+                "241ee0c1-3e70-4462-97de-11a644b7b1c6",
+                "b81e8e00-f121-4b57-a4fc-9be3bf14f4eb"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 826,
+              "y": 350.0000000000003
+            },
+            "size": {
+              "width": 310,
+              "height": 150
+            },
+            "attrs": {
+              "label": {
+                "text": "Externí služba"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "521349f8-0275-412a-aeb3-bcf76df90d85",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Externí služba",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "2dc055e5-a223-4ed6-80dd-5110e0b74726"
+              ],
+              "containedElements": [
+                "eeb9fa7a-e549-4784-9cfe-a89fcb1bad1e"
+              ]
+            }
+          },
+          {
+            "position": {
               "x": -48.75,
               "y": 10
             },
@@ -53,6 +191,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -136,7 +275,6 @@
               ]
             },
             "id": "8ea00c75-7a12-4b74-bede-f7804f4a31db",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Klient",
@@ -170,6 +308,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -253,7 +392,6 @@
               ]
             },
             "id": "a11ff88c-bf1f-4d29-aa24-ef74ef2a4351",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Mobilní aplikace",
@@ -293,6 +431,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -376,7 +515,6 @@
               ]
             },
             "id": "f15793ed-c178-4f85-a7dc-9e6ec9e9011e",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "Databáze účtů a transakcí",
@@ -424,7 +562,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "0f93a380-355c-4939-af1b-a46cf2e1f469"
+              ]
             },
             "labels": [
               "přihlašovací údaje, platební příkaz"
@@ -476,7 +616,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "0f93a380-355c-4939-af1b-a46cf2e1f469"
+              ]
             },
             "labels": [
               "přihlašovací údaje + ID zařízení"
@@ -584,7 +726,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "0f93a380-355c-4939-af1b-a46cf2e1f469"
+              ]
             },
             "labels": [
               "platební příkaz (účet příjemce, částka) + token"
@@ -752,7 +896,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "6e3b2d82-8c40-4ad9-ac93-b5cb868d81a1"
+              ]
             },
             "labels": [
               "zápis transakce, kontrola zůstatku"
@@ -787,66 +933,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "externí převod",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "externí převod"
-            ],
-            "id": "5805be4f-48fa-4d55-98b1-af2e1e92c4df",
-            "source": {
-              "x": 940,
-              "y": 35
-            },
-            "target": {
-              "cell": "eeb9fa7a-e549-4784-9cfe-a89fcb1bad1e",
-              "port": "ecc46a5c-2999-45aa-a833-a613ccab4949"
-            },
-            "vertices": [
-              {
-                "x": 940,
-                "y": 210
-              },
-              {
-                "x": 860,
-                "y": 330
-              },
-              {
-                "x": 520,
-                "y": 414
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "přihlášení, změny účtu klienta",
               "description": "",
               "outOfScope": false,
@@ -858,7 +944,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e990750e-6ee2-48fb-bfde-efcaaa94a849"
+              ]
             },
             "labels": [
               "přihlášení, změny účtu klienta"
@@ -914,7 +1002,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "e990750e-6ee2-48fb-bfde-efcaaa94a849"
+              ]
             },
             "labels": [
               "údaje klientů"
@@ -960,7 +1050,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "6e3b2d82-8c40-4ad9-ac93-b5cb868d81a1"
+              ]
             },
             "labels": [
               "údaje klientů"
@@ -1012,7 +1104,9 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "6e3b2d82-8c40-4ad9-ac93-b5cb868d81a1"
+              ]
             },
             "labels": [
               "záznam operací"
@@ -1025,6 +1119,54 @@
             "target": {
               "cell": "50168645-6e85-4495-b8c6-29e3c6488b0f",
               "port": "447cb4da-6634-4a23-a1eb-bc720c40e9fd"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Externí převod",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "521349f8-0275-412a-aeb3-bcf76df90d85"
+              ]
+            },
+            "labels": [
+              "Externí převod"
+            ],
+            "id": "2dc055e5-a223-4ed6-80dd-5110e0b74726",
+            "source": {
+              "x": 903,
+              "y": 60
+            },
+            "target": {
+              "cell": "eeb9fa7a-e549-4784-9cfe-a89fcb1bad1e",
+              "port": "d9274d75-6e7a-411c-bfe0-d42bb209e4eb"
             }
           },
           {
@@ -1048,6 +1190,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1141,13 +1284,12 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 11
+            }
           },
           {
             "position": {
-              "x": -48.75,
-              "y": 384.00000000000045
+              "x": 870,
+              "y": 410
             },
             "size": {
               "width": 180,
@@ -1165,6 +1307,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1258,8 +1401,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 12
+            }
           },
           {
             "position": {
@@ -1282,6 +1424,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1378,8 +1521,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 13
+            }
           },
           {
             "position": {
@@ -1402,6 +1544,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1498,8 +1641,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
@@ -1522,6 +1664,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1618,8 +1761,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 15
+            }
           },
           {
             "position": {
@@ -1642,6 +1784,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1738,8 +1881,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 16
+            }
           },
           {
             "position": {
@@ -1765,6 +1907,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1862,8 +2005,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 17
+            }
           }
         ],
         "version": "2.6.2",
